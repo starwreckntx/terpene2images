@@ -1,0 +1,21 @@
+{
+  "name": "terpene2images",
+  "version": "1.0.0",
+  "description": "Pinene: Soul of Dissonance — Visual &amp; Audio Synthesis Spec",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:31438/git/starwreckntx/terpene2images"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terpene2Images - Soul of Dissonance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌲 Terpene2Images</h1>
+            <p class="subtitle">Pinene: Soul of Dissonance — Visual &amp; Audio Synthesis</p>
+        </header>
+
+        <main>
+            <section class="controls">
+                <h2>Select a Terpene</h2>
+                <div class="terpene-selector" id="terpeneSelector">
+                    <!-- Terpene buttons will be dynamically generated -->
+                </div>
+            </section>
+
+            <section class="visualization">
+                <canvas id="visualCanvas" width="800" height="600"></canvas>
+            </section>
+
+            <section class="info-panel" id="infoPanel">
+                <div class="info-content">
+                    <h2 id="terpeneName">Select a terpene to begin</h2>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <strong>Molecular Formula:</strong>
+                            <span id="molecular">-</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Scent Profile:</strong>
+                            <span id="scent">-</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Frequency:</strong>
+                            <span id="frequency">-</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Effects:</strong>
+                            <span id="effects">-</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="audio-controls">
+                <button id="playAudio" class="audio-btn" disabled>▶ Play Frequency</button>
+                <button id="stopAudio" class="audio-btn" disabled>⏹ Stop</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Interactive visualization of terpene molecular structures and their vibrational frequencies</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
